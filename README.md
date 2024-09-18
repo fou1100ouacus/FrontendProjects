@@ -5,4 +5,6 @@
 
 ## 🛠 Technologies Used
 
--
+- **HTML5:** Structuring content for the web
+- **CSS3:** Styling, layouts (Flexbox, Grid), animations, and responsiveness
+
