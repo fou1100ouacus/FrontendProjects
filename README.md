@@ -7,4 +7,6 @@
 
 - **HTML5:** Structuring content for the web
 - **CSS3:** Styling, layouts (Flexbox, Grid), animations, and responsiveness
+- **Responsive Design:** Mobile-first design using media queries
+- **Browser Compatibility:** Tested across modern browsers
 
