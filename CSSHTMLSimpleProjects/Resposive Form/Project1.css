@@ -1,0 +1,46 @@
+body{
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start; 
+  height: 100vh ;
+  background-image: url("./images/gg.jpg");
+background-repeat: no-repeat;
+background-size:cover ;
+
+}
+
+form{
+  background-color: rgb(46, 42, 82);
+  padding: 10px  ;
+  width: 50%; 
+  display: flex;
+  flex-wrap: wrap;
+  gap:5px;
+
+    
+}
+form input{
+  background-color: rgb(132, 194, 189);
+
+  border: 40px;  ;
+  color: white;
+  outline:chartreuse;
+  padding: 5px 10px;
+  /* width: 200px; */
+  flex-basis: 20px;
+   flex-grow: 1  ;
+ 
+}
+form button{
+  background-color: rgb(14, 223, 66);
+color: white;
+border: none;
+cursor: pointer;
+padding: 5px 10px;
+width: 30px;
+
+flex-basis: 30px;
+flex-grow: 1;
+
+}
