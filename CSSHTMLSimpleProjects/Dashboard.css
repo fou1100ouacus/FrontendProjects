@@ -1,0 +1,196 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+body {
+  background-color: rgb(10, 41, 88);
+  display: flex;
+}
+
+.img-box {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid white;
+  flex-shrink: 0;
+
+}
+
+.img-box img {
+  width: 100%;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+
+}
+
+.profile h3 {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.Menu {
+  background-color: rgb(10, 41, 88);
+  width: 50px;
+  height: 100vh;
+  /* padding 20 px when any item go out make overflow hidden 
+then phote profile disapper --> make flexshirink 0  
+*/
+  padding: 20px;
+  overflow: hidden;
+  transition: .5s;
+
+}
+
+.Menu:hover {
+
+  width: 260px;
+
+}
+
+ul {
+  list-style: none;
+  position: relative;
+  height: 95%;
+
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  background-color: rgb(12, 101, 153);
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+
+}
+
+td, ul li a:hover {
+  background-color: rgb(205, 224, 220);
+
+}
+
+.data-info .box:hover {
+  background-color: rgb(205, 224, 220);
+
+}
+
+.Logout {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.Logout a {
+  background-color: red;
+
+}
+
+
+
+ul li a i {
+  font-size: 30px;
+
+}
+
+
+/* content */
+
+.content {
+  background-color: rgb(246, 249, 250);
+  width: 100%;
+  margin: 0px;
+}
+
+
+.title-info {
+  background-color: rgb(18, 155, 52);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  margin: 10px 0;
+
+
+}
+
+
+.data-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.data-info .box {
+  background-color: rgb(12, 101, 153);
+  height: 150px;
+  width: 150px;
+  flex-grow: 1;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.data-info .box i {
+  font-size: 30px;
+}
+
+.data-info .box .data {
+
+  text-align: center;
+
+}
+
+.data-info .box .span {
+  font-size: 60px;
+}
+
+ 
+
+table {
+  width: 100%;
+  text-align: center;
+  border-spacing: 7px;
+  flex-grow: 1;
+}
+
+.thead .tr{
+  padding: 66px;
+}
+td, th {
+  background-color: rgb(12, 101, 153);
+  height: 40px;
+  border-radius: 8px;
+}
+
+th{
+  background-color: rgb(6, 11, 59);
+width: 50%;
+
+}
+.price , .count{
+  padding: 6px;
+  border-radius: 6px  ;
+  display: flex;
+}
+
+
+
